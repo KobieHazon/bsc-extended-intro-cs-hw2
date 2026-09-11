@@ -47,7 +47,7 @@ The regression suite covers every maintained function, invalid input behavior, c
 
 - `assignment/hw2_tester.py`: supplied tester preserved in its original form
 - `assignment/score-key.pdf`: supplied grading key
-- `solution/written-answers.pdf`: my six-page written submission with identifying metadata reduced to the author's name
+- `solution/written-answers.pdf`: my six-page written submission
 - `src/extended_intro_hw2/`: maintained implementations and command-line interface
 - `tests/`: portable pytest suite, including a compatibility run of the supplied tester
 
