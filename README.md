@@ -41,7 +41,7 @@ uv run ruff check .
 uv run ruff format --check .
 ```
 
-The regression suite covers every maintained function, invalid input behavior, command-line output, and the complete supplied tester. The untouched recovered solution passes all supplied checks except one known case: it returns `False` when both non-empty strings are identical, although the tester expects identical strings to count as rotations. The maintained implementation corrects that case and passes the full tester.
+The regression suite covers every maintained function, invalid input behavior, command-line output, and the complete supplied tester. The untouched solution passes all supplied checks except one known case: it returns `False` when both non-empty strings are identical, although the tester expects identical strings to count as rotations. The maintained implementation corrects that case and passes the full tester.
 
 ## Repository Structure
 
@@ -50,11 +50,3 @@ The regression suite covers every maintained function, invalid input behavior, c
 - `solution/written-answers.pdf`: my six-page written submission
 - `src/extended_intro_hw2/`: maintained implementations and command-line interface
 - `tests/`: portable pytest suite, including a compatibility run of the supplied tester
-
-## Implementation notes
-
-The recovered Python file combines my answers with course-provided skeleton comments and named benchmark snippets. Those supplied sections remain in the historical solution commit and are not presented as authored work.
-
-## License
-
-No repository-wide license is declared because the repository combines original work with supplied material whose reuse terms were not recorded.
