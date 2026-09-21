@@ -1,4 +1,4 @@
-from extended_intro_hw2.cli import cli
+from extended_intro_hw2_cli import cli
 
 
 def test_power_cli(monkeypatch, capsys) -> None:

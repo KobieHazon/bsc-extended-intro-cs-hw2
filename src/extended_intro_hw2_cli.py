@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import argparse
 
-from .exercises import dec, inc, is_rotated, lcs_length_2, power_new, square_digit_chain
+from extended_intro_hw2 import dec, inc, is_rotated, lcs_length_2, power_new, square_digit_chain
 
 
 def build_parser() -> argparse.ArgumentParser:

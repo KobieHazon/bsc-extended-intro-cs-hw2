@@ -19,7 +19,7 @@ cd bsc-extended-intro-cs-hw2
 uv sync --dev
 ```
 
-The maintained package supports Python 3.10 or newer and has no runtime dependencies.
+The implementation supports Python 3.10 or newer and has no runtime dependencies.
 
 ## Usage
 
@@ -48,5 +48,5 @@ The regression suite covers every maintained function, invalid input behavior, c
 - `assignment/hw2_tester.py`: supplied tester preserved in its original form
 - `assignment/score-key.pdf`: supplied grading key
 - `solution/written-answers.pdf`: my six-page written submission
-- `src/extended_intro_hw2/`: maintained implementations and command-line interface
+- `src/`: maintained implementations and command-line interface
 - `tests/`: portable pytest suite, including a compatibility run of the supplied tester

@@ -5,6 +5,23 @@ from __future__ import annotations
 import random
 from collections.abc import Hashable, Sequence
 
+__all__ = [
+    "count_ends",
+    "count_nums_1",
+    "dec",
+    "gen_str",
+    "has_common",
+    "inc",
+    "is_rotated",
+    "lcs_length_1",
+    "lcs_length_2",
+    "pow_digit_chain",
+    "power_new",
+    "reverse_dict",
+    "reverse_dict_in_place",
+    "square_digit_chain",
+]
+
 
 def reverse_dict(mapping: dict[Hashable, Hashable]) -> dict[Hashable, Hashable]:
     """Return an inverted one-to-one mapping."""
